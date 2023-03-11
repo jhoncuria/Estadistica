@@ -1,2 +1,2 @@
-# estadisticas
-conceptos y aplicaciones
+# Estadistica
+Conceptos y Aplicaciones
