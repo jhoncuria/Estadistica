@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d18c4609bbd5dc04",
+        "id": "520ac8eac311ca56",
         "type": "tabs",
         "children": [
           {
-            "id": "14385cf04c3bb3e3",
+            "id": "a7aaba6a1a8122c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -148,8 +148,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "14385cf04c3bb3e3",
+  "active": "a7aaba6a1a8122c4",
   "lastOpenFiles": [
+    "path/to/![[Pasted.md",
+    "ESTADISTICA.md",
+    "path/to/img.jpg.md",
+    "path/to",
+    "path",
     "Pasted image 20230311194300.png",
     "Pasted image 20230311193959.png",
     "Pasted image 20230311193936.png",
@@ -160,8 +165,6 @@
     "Pasted image 20230311192820.png",
     "Pasted image 20230311192811.png",
     "Pasted image 20230311192755.png",
-    "Pasted image 20230311192746.png",
-    "README.md",
-    "ESTADISTICA.md"
+    "README.md"
   ]
 }
