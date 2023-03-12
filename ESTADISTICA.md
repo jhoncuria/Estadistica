@@ -59,12 +59,8 @@ import seaborn as sns # importando seaborn
 Al recoger datos relativos a las características de un grupo de individuos u objetos, por ejemplo edad de los estudiantes de Henry, suele ser imposible o poco práctico observar todo el grupo, en especial si es muy grande. En vez de examinar el grupo entero, llamado población o universo, se examina una pequeña parte del grupo, llamado muestra.
 Población es un conjunto de elementos, que responden a una determinada característica.
 Es un conjunto homogéneo de elementos. El concepto de población en Estadística va más allá de la clásica definición que se da en la Demografía, esto es, la población de seres humanos exclusivamente. En la actividad estadística una población puede estar constituida por elementos de cualquier tipo, no solamente por seres humanos. Por ejemplo, se puede hablar de la población de viviendas de un barrio; de la población de comprobantes contables de una empresa; de la población de alumnos en Henry, etc.
-
 <p> <img src="![[Pasted image 20230311192332.png]]" width="220" height="240" /> </p>  
  ![[Pasted image 20230311192332.png]]
-
-
-![Alt text](/path/to/![[Pasted image 20230311192332.png)
 
 
 ### Distribución de frecuencias
