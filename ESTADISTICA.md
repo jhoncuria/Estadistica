@@ -61,11 +61,7 @@ Población es un conjunto de elementos, que responden a una determinada caracter
 Es un conjunto homogéneo de elementos. El concepto de población en Estadística va más allá de la clásica definición que se da en la Demografía, esto es, la población de seres humanos exclusivamente. En la actividad estadística una población puede estar constituida por elementos de cualquier tipo, no solamente por seres humanos. Por ejemplo, se puede hablar de la población de viviendas de un barrio; de la población de comprobantes contables de una empresa; de la población de alumnos en Henry, etc.
 
 <p> <img src="![[Pasted image 20230311192332.png]]" width="220" height="240" /> </p>  
-
-  ![[Pasted image 20230311192332.png]]
-Fuente: https://www.iteramos.com/pregunta/53479/la-imagen-no-aparece-en-readmemd-en-github
-
-![[Pasted image 20230311192332.png]]
+ ![[Pasted image 20230311192332.png]]
 
 
 ### Distribución de frecuencias
