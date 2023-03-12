@@ -13,7 +13,7 @@ muestra = np.array( [[1.85, 1.8, 1.8 , 1.8],
 - Varianza
 - Desvío estándar.
 
-## Solucion
+## Solución
 
 - [ ] Instalar numpy, scipy, pandas y matplotlib con **"pip install (libreria)"** en VSC
 - [ ] Importar lo instalado
@@ -23,7 +23,7 @@ from scipy import stats # importando scipy.stats
 import pandas as pd #importando pandas
 import matplotlib.pyplot as plt # importando matplotlib
 ```
-####   * Calculo de ma meda aritmetica
+####   * Calculo de LA MEDIA ARITMETICA
 ```python
 muestra = np.array( [[1.85, 1.8, 1.8 , 1.8],
                     [1.73,  1.7, 1.75, 1.76],
@@ -45,9 +45,7 @@ muestra.shape
 ```
 R. (5,4)
 
-Cuando trabaje con arreglos Numpy, a menudo querrá remodelar un arreglo existente en un arreglo de diferentes dimensiones. Esto puede ser particularmente útil cuando transforma datos en varios pasos.
-
-y numpy `reshape()` te ayuda a hacerlo fácilmente. En los próximos minutos, aprenderá la sintaxis para usar `reshape()`, y también reformar matrices a diferentes dimensiones.
+Cuando trabaje con arreglos Numpy, a menudo querrá remodelar un arreglo existente en un arreglo de diferentes dimensiones. Esto puede ser particularmente útil cuando transforma datos en varios pasos y numpy `reshape()` te ayuda a hacerlo fácilmente. La sintaxis para usar `reshape()`, también reforma matrices a diferentes dimensiones.
 
 ```python
 nueva_muestra = muestra reshape(20, )
@@ -55,12 +53,10 @@ nueva_muestra = muestra reshape(20, )
 
 ```python
 nueva_muestra
-
-array([1.85, 1.8 , 1.8 , 1.8 , 1.73, 1.7 , 1.75, 1.76, 1.65, 1.69, 1.67, 1.6 , 1.54, 1.57, 1.58, 1.59, 1.4 , 1.42, 1.45, 1.48])
 ```
 R. array([1.85, 1.8 , 1.8 , 1.8 , 1.73, 1.7 , 1.75, 1.76, 1.65, 1.69, 1.67, 1.6 , 1.54, 1.57, 1.58, 1.59, 1.4 , 1.42, 1.45, 1.48])
 
-- [ ] Para sacar la media aritmetica se debe sumar todos los elementos y dividir entre la cantidad de elementos para ello se realiza el siguiente codigo:
+- [ ] Para sacar la media aritmetica se debe sumar todos los elementos y dividir entre la cantidad de elementos para ello se realiza el siguiente código:
 ```python
 def media(lista):
 	suma = 0
@@ -87,7 +83,7 @@ media(nueva_muestra)
 ```
 R = 1.6415
 
-#### * Determinar la MEDIANA
+#### * Calculo de LA MEDIANA
 - [ ] Determinar la mediana, el siguiente codigo nos ayuda a determinarlo.
 ```python
 def mediana(lista):
@@ -113,7 +109,7 @@ mediana(nueva_muestra)
 R. 1.66
 
 #### * Determinar LA MODA
-- [ ] Determinar la moda, el siguiente codigo nos ayuda a determinarlomediana(nueva_muestra) 
+- [ ] Determinar la moda, el siguiente codigo nos ayuda a determinar la moda 
 ```python
 def moda(lista):
 	elemento = 0
@@ -147,7 +143,7 @@ R. 1.8
 
 #### * Determinar LA VARIANZA
 
-- [ ] Determinar la varianza, el siguiente codigo nos ayuda a determinarlomediana(nueva_muestra) 
+- [ ] Determinar la varianza, el siguiente código nos ayuda a determinar:
 
 ```python
 def varianza(lista):
@@ -172,14 +168,14 @@ R. 0.017642750000000006
 
 #### * Determinar LA DESVIACION STANDAR
 
-- [ ]  Determinar la desviacion standar se determina con el siguiente codigo:
+- [ ]  Determinar la desviación standar se determina con el siguiente código:
 
 ```python
 np.sqrt(varianza(nueva_muestra))
 ```
 R. 0.13282601401833907
 
-tambien se puede determinar con :
+También se puede determinar con :
 ```python
 nueva_muestra.std()
 ```
@@ -188,30 +184,26 @@ R.  0.13282601401833907
 
 # 2. Convierta el arreglo en una lista y realice un Histograma de 5 intervalos. ¿Tiene distribución normal?.
 
-### Solución
+## Solución
 
 Primero importar matplotlib si no se tiene, instalar con ** pip install matplotlib**
-
 ```python
 import matplotlib.pyplot as plt
 ```
-
 
 ```python
 plt.hist(nueva_muestra, bins = 5)
 plt.grid()
 plt.show()
 ```
-
 R.
 ![[Pasted image 20230312082046.png]]
 
-==**NO tiene una distribuicion normal**==
-
+==**NO tiene una distribuición normal**==
 
 # 3. Utilizando pandas describa el dataframe.
 
-### Solucion
+## Solución
  - [ ]  Importar pandas y con ello se realizara el dataframe.
 
 ```python
@@ -237,13 +229,14 @@ R.
 | 75%   | 1.752500  |
 | max   | 1.850000  |
 
+Describe muestra los resultados de los parametros estadisticos, meedia, mediana, moda estc.
 
 # 4. Con los siguientes datos construye un df y un array que permitan describir adecuadamente la muestra.
 
 'Ingreso en miles' : 10.5	6.8	20.7	18.2	8.6	25.8	22.2	5.9	7.6	11.8 
 'Años de estudio': 17	18	21	16	16	21	16	14	18	18 
 
-### Solucion
+## Solución
 - [ ] Primero crearemos un dicccionario con los datos que nos dan
 
 ```python
@@ -276,8 +269,8 @@ R
 
 # 5. Realice un histograma para de 6 secciones para 'Ingreso en miles' y 'Años de estudio'.
 
-### Solucion
-
+## Solución
+Graficando el histograma Ingreso en miles
 ```python
 plt.hist(df1["Ingreso en miles"], bins = 6)
 plt.grid()
@@ -286,6 +279,7 @@ plt.show()
 R.
 ![[Pasted image 20230312084334.png]]
 
+Graficando el histograma Años de Estudio
 ```python
 plt.hist(df1["Años de estudio"], bins = 6)
 plt.grid()
@@ -294,22 +288,17 @@ plt.show()
 R.
 ![[Pasted image 20230312084438.png]]
 
-
-
 # 6. Cálcula la media de 'Ingreso en miles' (df) utilizando pandas.
 
-### Solución
-
+## Solución
 ```python
 df1["Ingreso en miles"].mean()
 ```
 R. 13.809999999999999
 
-
-
 # 7. Cálcula la media de 'Ingreso en miles' (array) utilizando numpy.
 
-### Solución
+## Solución
 ```python
 np.mean(df1["Ingreso en miles"])
 ```
@@ -317,17 +306,14 @@ R. 13.809999999999999
 
 # 8. Agregue los siguientes valores extremos al df [ 50, 35 ], [ 120, 30 ]. ¿En cuanto vario la media?, ¿Qué conclusiones obtiene de este resultado sobre la media?.
 
-### Solución
+## Solución
 
-primero creamos una copia del dataframe
-
+Primero creamos una copia del dataframe
 ```python
 df2 = df1.copy()
 ```
 
-
-Agregamos los valores indicados
-primero se define los campos de ingreso
+Se define los campos de ingreso
 ```python
 nuevos_elementos = {"Ingreso en miles": 50, "Años de estudio":35}
 nuevos_elementos1 = {"Ingreso en miles": 120 , "Años de estudio":30}
