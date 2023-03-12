@@ -1,7 +1,6 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
 ## Principales Objetivos de Aprendizaje para esta Clase
-## para renderizar ctr shift + v
 
 -Conocer los conceptos fundamentales de la Estadística
 -Estadística aplicada con Python
@@ -59,7 +58,6 @@ import seaborn as sns # importando seaborn
 Al recoger datos relativos a las características de un grupo de individuos u objetos, por ejemplo edad de los estudiantes de Henry, suele ser imposible o poco práctico observar todo el grupo, en especial si es muy grande. En vez de examinar el grupo entero, llamado población o universo, se examina una pequeña parte del grupo, llamado muestra.
 Población es un conjunto de elementos, que responden a una determinada característica.
 Es un conjunto homogéneo de elementos. El concepto de población en Estadística va más allá de la clásica definición que se da en la Demografía, esto es, la población de seres humanos exclusivamente. En la actividad estadística una población puede estar constituida por elementos de cualquier tipo, no solamente por seres humanos. Por ejemplo, se puede hablar de la población de viviendas de un barrio; de la población de comprobantes contables de una empresa; de la población de alumnos en Henry, etc.
-
 
 ![[Pasted image 20230311192332.png]]
 
