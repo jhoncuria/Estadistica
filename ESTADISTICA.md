@@ -64,6 +64,9 @@ Es un conjunto homogéneo de elementos. El concepto de población en Estadístic
  ![[Pasted image 20230311192332.png]]
 
 
+![Alt text](/path/to/![[Pasted image 20230311192332.png)
+
+
 ### Distribución de frecuencias
 
 La distribución de frecuencias es una forma de presentación de los datos que facilita su tratamiento conjunto y permite una comprensión diferente de ellos. Es una tabla de datos en base a observaciones (frecuencias). La frecuencia es el número de casos que pertenecen a un valor determinado.<br>
