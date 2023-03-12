@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7ae638b9a2122b28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ESTADISTICA.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a769c99f708236aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Homework.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1e85c459b8fc70a2",
@@ -85,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ESTADISTICA.md",
+                "file": "Homework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ESTADISTICA.md",
+                "file": "Homework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ESTADISTICA.md"
+                "file": "Homework.md"
               }
             }
           }
@@ -148,11 +174,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a7aaba6a1a8122c4",
+  "active": "a769c99f708236aa",
   "lastOpenFiles": [
-    "path/to/![[Pasted.md",
+    "Pasted image 20230312084438.png",
+    "Pasted image 20230312084334.png",
+    "Pasted image 20230312082046.png",
     "ESTADISTICA.md",
+    "Homework.md",
+    "path/to/![[Pasted.md",
     "path/to/img.jpg.md",
+    "Untitled.md",
     "path/to",
     "path",
     "Pasted image 20230311194300.png",
@@ -163,8 +194,6 @@
     "Pasted image 20230311193232.png",
     "Pasted image 20230311193217.png",
     "Pasted image 20230311192820.png",
-    "Pasted image 20230311192811.png",
-    "Pasted image 20230311192755.png",
     "README.md"
   ]
 }
