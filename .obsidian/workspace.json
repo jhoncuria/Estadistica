@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1e85c459b8fc70a2",
@@ -144,11 +145,24 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "14385cf04c3bb3e3",
   "lastOpenFiles": [
-    "README.md"
+    "Pasted image 20230311194300.png",
+    "Pasted image 20230311193959.png",
+    "Pasted image 20230311193936.png",
+    "Pasted image 20230311193855.png",
+    "Pasted image 20230311193833.png",
+    "Pasted image 20230311193232.png",
+    "Pasted image 20230311193217.png",
+    "Pasted image 20230311192820.png",
+    "Pasted image 20230311192811.png",
+    "Pasted image 20230311192755.png",
+    "Pasted image 20230311192746.png",
+    "README.md",
+    "ESTADISTICA.md"
   ]
 }
