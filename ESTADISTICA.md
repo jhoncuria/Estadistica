@@ -290,7 +290,7 @@ A continuación, te dejaremos acceso a la homework resuelta.
 
 Recuerda entrar una vez ya resuelta para hacer autocorrección o para consultar dudas. **¡La meta aquí es aprender! 🚀**
 
-## Homework
+## [[Homework]]
 
 1. Considere el siguiente areglo que contiene la altura de un grupo de estudiantes de Henry y cálcule:
 
