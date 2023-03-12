@@ -11,12 +11,7 @@
 El término estadística se refiere a datos numéricos, tales como promedios, medianas, porcentajes y números índices que ayudan a entender una gran variedad situaciones.<br>
 En un sentido amplio, la estadística se define como el arte y la ciencia de reunir datos, analizarlos, presentarlos e interpretarlos. Esto ayuda a las personas que deben tomar decisiones una mejor comprensión del entorno, permitiéndoles así tomar mejores decisiones con base en mejor información.
 
-
-#### Lectura recomendada:
-
-["Estadística Inferencial 1 Para Ingeniería y Ciencias" - Unidad 1](https://github.com/soyHenry/DS-M2/blob/main/Estad%C3%ADstica%20Inferencial.pdf)
-
-["Estadística para Administración Economía" - Capítulo 2 y 3](https://github.com/soyHenry/DS-M2/blob/main/Anderson.pdf)
+Existen diferentes **tipos** de estadística, a continuación veremos de qué se tratan la **descriptiva** y la **inferencial.** ¡Haz click en cada una para saberlo!
 
 
 ### Estadística Descriptiva
@@ -38,6 +33,14 @@ import matplotlib.pyplot as plt # importando matplotlib
 import seaborn as sns # importando seaborn
 
 ```
+
+#### Lectura recomendada:
+
+["Estadística Inferencial 1 Para Ingeniería y Ciencias" - Unidad 1](https://github.com/soyHenry/DS-M2/blob/main/Estad%C3%ADstica%20Inferencial.pdf)
+
+["Estadística para Administración Economía" - Capítulo 2 y 3](https://github.com/soyHenry/DS-M2/blob/main/Anderson.pdf)
+
+
 #### Lectura recomendada:
 
 [Estadísticas con python](https://realpython.com/python-statistics/#:~:text=Python%27s%20statistics%20is%20a%20built,%2D%20and%20multi%2Ddimensional%20arrays.)
@@ -57,7 +60,9 @@ Al recoger datos relativos a las características de un grupo de individuos u ob
 Población es un conjunto de elementos, que responden a una determinada característica.
 Es un conjunto homogéneo de elementos. El concepto de población en Estadística va más allá de la clásica definición que se da en la Demografía, esto es, la población de seres humanos exclusivamente. En la actividad estadística una población puede estar constituida por elementos de cualquier tipo, no solamente por seres humanos. Por ejemplo, se puede hablar de la población de viviendas de un barrio; de la población de comprobantes contables de una empresa; de la población de alumnos en Henry, etc.
 
-![Poblacion](../_src/assets/pobmuestra.PNG)
+
+![[Pasted image 20230311192332.png]]
+
 
 ### Distribución de frecuencias
 
@@ -66,20 +71,21 @@ Por ejemplo si dos alumnos obtuvieron un 10 en su checkpoint, la frecuencia de 1
 En esta tabla los datos pierden la individualidad (se deja de conocer el valor particular de cada uno) porque se presentan en clases o categorías que agrupan a un conjunto de valores. Estos grupos se denominan intervalos.
 
 Para construir una distribución de frecuencias se debe:
-- Seleccionar el número apropiado de intervalos de clase
-- Obtener el tamaño de cada intervalo de clase
-- Establecer los límites de cada clase para evitar superposiciones
+- [ ]  Seleccionar el número apropiado de intervalos de clase
+- [ ] Obtener el tamaño de cada intervalo de clase
+- [ ] Establecer los límites de cada clase para evitar superposiciones
 
 A continuación un ejemplo con las edades de compradores de automóviles:
 
-![Frecuencias](../_src/assets/frecuencias.PNG)
+![[Pasted image 20230311192450.png]]
+
 
 ### Histograma
 
 El Histograma es un gráfico de la distribución de frecuencias, que se construye con rectángulos de superficie proporcional al producto de la amplitud por la frecuencia absoluta (o relativa) de cada uno de los intervalos de clase.<br>
 Está formado por una serie de rectángulos, la variable de interés se representa en el eje horizontal, el número o porcentaje de observaciones se representa en el eje vertical. La base está sobre el eje horizontal y el centro en el punto medio. Los extremos de cada rectángulo coinciden con los verdaderos límites. La longitud es el tamaño de cada intervalo de clase y la superficie es proporcional a la frecuencia. La superficie total del histograma representa el 100 % de los datos.
 
-![Histograma](../_src/assets/histograma.PNG)
+![[Pasted image 20230311192529.png]]
 
 
 ```python
@@ -96,40 +102,44 @@ plt.ylabel('Frecuencia')
 plt.show() 
  
 ```
-![Histograma2](../_src/assets/histopy.PNG)
+
+![[Pasted image 20230311192601.png]]
+
 
 ### Medidas de tendencia central y de posición
 
-- La tendencia central se refiere al punto medio de una distribución. Las medidas de tendencia central se conocen también como medidas de posición.<br>
-- La dispersión se refiere a la separación de los datos en una distribución, es decir, al grado en que las observaciones se separan de la tendencia central.<br>
-- El sesgo se produce cuando al trazar una linea vertical que pase por el punto más alto de la curva dividirá su área en dos partes que no son iguales. Cuando se da el caso de que cada parte es una imagen de espejo de la otra, esta cruva se denomina simétrica. Si la curva esta sesgada hacia la derecha, se considera positivamente sesgada y si el sesgo se pronuncia hacia la izquierda, se denomina negativamente sesgada.<br>
+- La tendencia central se refiere al punto medio de una distribución. Las medidas de tendencia central se conocen también como medidas de posición.
 
-![Sesgo](../_src/assets/sesgo.PNG)   ![Simetria](../_src/assets/simetrica.PNG)
+- La dispersión se refiere a la separación de los datos en una distribución, es decir, al grado en que las observaciones se separan de la tendencia central.
+
+- El sesgo se produce cuando al trazar una linea vertical que pase por el punto más alto de la curva dividirá su área en dos partes que no son iguales. Cuando se da el caso de que cada parte es una imagen de espejo de la otra, esta cruva se denomina simétrica. Si la curva esta sesgada hacia la derecha, se considera positivamente sesgada y si el sesgo se pronuncia hacia la izquierda, se denomina negativamente sesgada.
 
 - La curtosis se denomina a la medición de la pronunicación de una curva. Puede que dos curvas tengan la misma posición central y la misma dispersión, y ambas son simétricas. En este caso estadísticos dicen que tienen un grado diferente de curtosis.
 
+![[Pasted image 20230311192730.png]]
 
-![Simetria](../_src/assets/curtosis.PNG)
+![[Pasted image 20230311192746.png]]
+
+![[Pasted image 20230311192755.png]]
+
 
 #### Media aritmética
 
 Casi siempre, cuando nos referimos al “promedio” de algo, estamos hablando de la media aritmética. En una muestra de una población que consiste en n observaciones (con n minúscula), la media se denomina con x (x barra). Las medidas calculadas para una muestra se conocen como estadísticos.
 La notación es diferente cuando calculamos medidas para la población entera, es decir, para el grupo que contiene a todos los elementos que estamos describiendo. La media de una población se simboliza con la letra griega mu.
 
-![Media](../_src/assets/media.PNG)   ![Media 1](../_src/assets/media2.PNG)
+![[Pasted image 20230311192811.png]]
 
-Ventajas:
+![[Pasted image 20230311192820.png]]
 
-- Como un solo número que representa a un conjunto de datos completo.<br>
-- Se trata de un concepto familiar para la mayoría de las personas y es intuitivamente claro.<br>
-- Cada conjunto de datos tiene una media; es una medida que puede calcularse y es única debido a que cada conjunto de datos posee una y sólo una media.<br>
-- Es útil para llevar a cabo procedimientos estadísticos como la comparación de medias de varios conjuntos de datos.<br>
 
-Desventajas:
- 
-- Puede verse afectada por valores extremos que no son representativos del resto de los datos.<br>
-- Para grandes conjuntos de datos que no están agrupados en frecuencias relativas resulta un cálculo tedioso.<br>
-- Cuando existen valores de clase extermos abiertos ("60 años o más", "18 años o menos", etc.) no se puede cálcular.
+| Ventajas                                                                                                                                             | Desventajas                                                                                                       |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Como un solo número que representa a un conjunto de datos completo                                                                                   | Puede verse afectada por valores extremos que no son representativos del resto de los datos                       |
+| Se trata de un concepto familiar para la mayoría de las personas y es intuitivamente claro                                                           | Para grandes conjuntos de datos que no están agrupados en frecuencias relativas resulta un cálculo tedioso        |
+| Cada conjunto de datos tiene una media; es una medida que puede calcularse y es única debido a que cada conjunto de datos posee una y sólo una media | Cuando existen valores de clase extermos abiertos ("60 años o más", "18 años o menos", etc.) no se puede cálcular |
+| Es útil para llevar a cabo procedimientos estadísticos como la comparación de medias de varios conjuntos de datos                                    |                                                                                                                   |
+|                                                                                                                                                      |                                                                                                                   |
 
 Existen también otros conceptos relacionados a la media como media ponderada en donde el cálculo en base a la importancia de un valor en la muestra, o la media geométrica (se utiliza en tasas de interés) que se obtiene a partir de la raíz (n) del producto de los valores. 
 
@@ -138,22 +148,24 @@ print(data.mean()) # Media
 
 print(np.mean(data)) #Media numpy
 ```
-![Media](../_src/assets/pond.PNG)     ![Media](../_src/assets/geom.PNG) 
+
+![[Pasted image 20230311193232.png]]
+
+![[Pasted image 20230311193217.png]]
+
 
 #### La Mediana 
 
 La mediana es un solo valor del conjunto de datos que mide la observación central del conunto. Es decir que esta sola observación es el elemento que está más al centro del conjunto de números, la mitad de los elementos están por arriba de este punto y la otra mitad está por debajo. Entendiendo al conjunto de datos como la cantidad total de obervaciones.<br>
 Para hallar la mediana de un conjunto de datos, primero se organizan en orden descendente o ascendente. Si el conjunto de datos contiene un número impar de elementos, el de en medio en el arreglo es la mediana; si hay un número par de observaciones, la mediana es el promedio de los dos elementos de en medio.
 
-Ventajas:<br>
-- Los valores extremos no afectan a la mediana de manera tan grave como a la media.<br>
-- Es fácil de entender y se puede calcular a partir de cualquier tipo de datos, incluso a partir de datos agrupados con clases de extremo abierto.<br>
-- Podemos encontrar la mediana incluso cuando nuestros datos son descripciones cualitativas como color o nitidez, en lugar de números.
+| Ventajas                                                                                                                                        | Desventajas                                                                                                      |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Los valores extremos no afectan a la mediana de manera tan grave como a la media                                                                | Ciertos procedimientos estadísticos que utilizan la mediana son más complejos que aquellos que utilizan la media |
+| Es fácil de entender y se puede calcular a partir de cualquier tipo de datos, incluso a partir de datos agrupados con clases de extremo abierto | Debemos ordenar los datos antes de llevar a cabo cualquier cálculo, tema de la estimación con detalle            |
+| Podemos encontrar la mediana incluso cuando nuestros datos son descripciones cualitativas como color o nitidez, en lugar de números             |                                                                                                                  |
 
-Desventajas:<br>
-- Ciertos procedimientos estadísticos que utilizan la mediana son más complejos que aquellos que utilizan la media.<br>
-- Debemos ordenar los datos antes de llevar a cabo cualquier cálculo.<br>
-tema de la estimación con detalle.<br>
+
 
 ```python
 
@@ -161,22 +173,18 @@ print(np.median(data)) # Mediana numpy
 
 ```
 
-![Mediana](../_src/assets/mediana.PNG) 
 
 #### La Moda
 
 La moda es el valor que más se repite en el conjunto de datos. Como en todos los demás aspectos de la vida, el azar puede desempeñar un papel importante en la organización de datos. En ocasiones, el azar hace que un solo elemento no representativo se repita lo suficiente para ser el valor más frecuente del conjunto de datos. Es por esto que rara vez utilizamos la moda de un conjunto de datos no agrupados como una medida de tendencia central.<br>
 Cuando los datos ya se encuentran agrupados en una distribución de frecuencias, podemos suponer que la moda está localizada en la clase que contiene el mayor número de elementos, es decir, en la clase que tiene la mayor frecuencia.<br>
 
-Ventajas:<br>
-- Se puede utilizar como una posición central para datos tanto cualitativos como cuantitativos.<br>
-- También, al igual que la mediana, los valores extremos no afectan indebidamente a la moda.<br>
-- Una tercera ventaja de la moda es que la podemos utilizar aun cuando una o más clases sean de extremo abierto.<br>
+| Ventajas                                                                                                      | Desventajas                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Se puede utilizar como una posición central para datos tanto cualitativos como cuantitativos                  | La moda no se utiliza tan a menudo como medida de tendencia central                                                          |
+| También, al igual que la mediana, los valores extremos no afectan indebidamente a la moda                     | Muchas veces, no existe un valor modal debido a que el conjunto de datos no contiene valores que se presenten más de una vez |
+| Una tercera ventaja de la moda es que la podemos utilizar aun cuando una o más clases sean de extremo abierto | Cuando los conjuntos de datos contienen dos, tres o más modas, es difícil interpretarlos y compararlos                       |
 
-Desventajas:<br>
-- La moda no se utiliza tan a menudo como medida de tendencia central.<br>
-- Muchas veces, no existe un valor modal debido a que el conjunto de datos no contiene valores que se presenten más de una vez.<br>
-- Cuando los conjuntos de datos contienen dos, tres o más modas, es difícil interpretarlos y compararlos.<br>
 
 ```python
 
@@ -184,20 +192,25 @@ print(stats.mode(data)) #Moda de stats en scipy
 
 ```
 
-![Mediana](../_src/assets/sesgoscurva.PNG)
 
-Cuando trabajamos problemas de estadística, debemos decidir si vamos a utilizar la media, la mediana o la moda como medidas de tendencia central. Las distribuciones simétricas que sólo contienen una moda siempre tienen el mismo valor para la media, la mediana y la moda. En esos casos, no es necesario escoger la medida de tendencia central, pues ya está hecha la selección.<br>
+
+#### Cuando trabajamos problemas de estadística,,,,
+....debemos decidir si vamos a utilizar la media, la mediana o la moda como medidas de tendencia central. Las distribuciones simétricas que sólo contienen una moda siempre tienen el mismo valor para la media, la mediana y la moda. En esos casos, no es necesario escoger la medida de tendencia central, pues ya está hecha la selección.<br>
 En una distribución con sesgo positivo (es decir, sesgada a la derecha), la moda todavía se encuentra en el punto más alto de la distribución, la mediana está a la derecha de la moda y la media se encuentra todavía más a la derecha de la moda y la mediana.<br>
 En una distribución con sesgo negativo (es decir, sesgada a la izquierda), la moda sigue siendo el punto más alto de la distribución, la mediana está a la izquierda y la media se encuentra todavía más a la izquierda de la moda y la mediana.<br>
 Cuando la población está sesgada negativa o positivamente, la mediana suele ser la mejor medida de posición, debido a que siempre está entre la moda y la media. La frecuencia de ocurrencia de un solo valor no influye mucho en la mediana como es el caso de la moda, ni la distorsionan los valores extremos como la media.
 En cualquier otro caso, no existen guías universales para la aplicación de la media, la mediana o la moda como medidas de tendencia central para diferentes poblaciones.
+![[Pasted image 20230311193833.png]]
+
 
 ### La dispersión
 
 Observa la imagen debajo de este párrafo, la media de las tres curvas es la misma, pero la curva A tiene menor separación (o
 variabilidad) que la curva B, y ésta tiene menor variabilidad que la C. Si medimos sólo la media de estas tres distribuciones, estaremos pasando por alto una diferencia importante que existe entre las tres curvas. Al igual que sucede con cualquier conjunto de datos, la media, la mediana y la moda sólo nos revelan una parte de la información que debemos conocer acerca de las características de los datos. Para aumentar nuestro entendimiento del patrón de los datos, debemos medir también su dispersión, separación o variabilidad.
 
-![Dispesión](../_src/assets/dispersion.PNG)
+
+![[Pasted image 20230311193855.png]]
+
 
 #### El Rango
 
@@ -209,8 +222,7 @@ Cada población tiene una varianza, su símbolo es sigma cuadrada. Para calcular
 
 Para poder realizar una interpretación intuitiva de la varinza, debemos hacer un cambio significativo en la varianza y que en consecuencia, sea menos confusa. Esta medida se conoce como la desviación estándar y es la raíz cuadrada de la varianza. La desviación estándar, entonces, queda en las mismas unidades que los datos originales. Si utilizaramos la varianza, tendríamos nuestros valores al cuadrado, lo cual resulta complejo de entender.
 
-![Varianza](../_src/assets/varianza.PNG)
-
+![[Pasted image 20230311193936.png]]
 
 ```python
 
@@ -220,7 +232,19 @@ print(np.var(data)) #Varianza Numpy
 
 #### La Desviación Estándar
 
-La desviación estándar de la población, es simplemente la raíz cuadrada de la varianza de la población. Como la varianza es el promedio de los cuadrados de las distancias de las observaciones a la media, la desviación estándar es la raíz cuadrada del promedio de los cuadrados de las distancias entre las observaciones y la media. Mientras que la varianza se expresa con el cuadrado de las unidades utilizadas para medir los datos, la desviación estándar está en las mismas unidades que las que se usaron para medir los datos.
+La desviación estándar de la población, es simplemente la raíz cuadrada de la varianza de la población. Como la varianza es el promedio de los cuadrados de las distancias de las observaciones a la media, la desviación estándar es la raíz cuadrada del promedio de los cuadrados de las distancias entre las observaciones y la media. 
+Mientras que la varianza se expresa con el cuadrado de las unidades utilizadas para medir los datos, la desviación estándar está en las mismas unidades que las que se usaron para medir los datos.
+
+![[Pasted image 20230311193959.png]]
+```python
+import pandas as pd
+df = pd.read_csv('colesterol.csv')
+print(df[(df['sexo']=='H') & (df['colesterol'] > 260)])
+                     nombre  edad sexo    peso  altura    colesterol
+6   Antonio Fernández Ocaña    51    H    62.0    1.72         276.0
+9   Santiago Reillo Manzano    46    H    75.0    1.85         280.0
+```
+
 
 ```python
 
@@ -228,24 +252,44 @@ print(np.std(data)) #Desvío estándar Numpy
 
 ```
 
-![Desvio](../_src/assets/desvioest.PNG)
-
 #### Coeficientes de variación
 
 No podemos conocer la dispersión de un conjunto de datos hasta que conocemos su desviación estándar, su media y cómo se compara
 la desviación estándar con la media.Necesitamos es una medida relativa que nos proporcione una estimación de la magnitud
 de la desviación respecto a la magnitud de la media. El coeficiente de variación es una de estas medidas relativas de dispersión. Relaciona la desviación estándar y la media, expresando la desviación estándar como porcentaje de la media. La unidad de medida, entonces, es “porcentaje”, en lugar de las unidades de los datos originales.
 
-![Variacion](../_src/assets/variacion.PNG)
+![[Pasted image 20230311194300.png]]
 
-=======
-## Enlaces recomendados
+## **Para finalizar...**
 
-[Brilliant](https://brilliant.org/)
+Antes de finalizar este ReadMe queremos dejarte la **homework** para que puedas poner en práctica lo visto en clase. 
 
-#### Matemóvil
+Te dejaremos también el .pdf de la clase para que puedas tenerlo a mano en caso de que te surjan dudas o quieras repasar el contenido. Además, te dejaremos unos links de interés para que puedas profundizar lo aprendido.
 
+**Práctica de clase**
+Te brindamos ejercicios para que puedas prácticar lo aprendido en la clase 1.  
+(Al final del archivo)
+[IR A LA HOMEWORK(OPENS IN A NEW TAB)](https://drive.google.com/drive/folders/1i8V97cKsrEEDz8OLj0_Dl5SOmDkNHdHq)
+
+
+**Repaso de la clase** 
+Accede al .pdf de la clase para repasar o solventar dudas. 
+[VER PDF DE CLASE(OPENS IN A NEW TAB)](https://drive.google.com/drive/folders/1i8V97cKsrEEDz8OLj0_Dl5SOmDkNHdHq)
+
+### **Links de interés** 
 [Introducción a la estadística - Matemóvil](https://www.youtube.com/watch?v=gl9EEbT7viM&list=PL3KGq8pH1bFTdYhAMbC0XHRpe_njRSctM)
+[Estadísticas con Python(opens in a new tab)](https://realpython.com/python-statistics/#:~:text=Python%27s%20statistics%20is%20a%20built,%2D%20and%20multi%2Ddimensional%20arrays.)
+[Estadísticas con Numpy(opens in a new tab)](https://numpy.org/doc/stable/reference/routines.statistics.html)
+[Estadísticas con Pandas(opens in a new tab)](https://pandas.pydata.org/docs/getting_started/intro_tutorials/06_calculate_statistics.html)
+[Histogramas con Matplotlib(opens in a new tab)](https://matplotlib.org/1.5.0/examples/statistics/index.html)
+[Brilliant(opens in a new tab)](https://brilliant.org/)
+[Introducción a la estadística - Matemóvil(opens in a new tab)](https://www.youtube.com/watch?v=gl9EEbT7viM&list=PL3KGq8pH1bFTdYhAMbC0XHRpe_njRSctM)
+[Estadística Inferencial(opens in a new tab)](https://github.com/soyHenry/DS-M2/blob/main/Estad%C3%ADstica%20Inferencial.pdf)
+[Estadística para administración y economía(opens in a new tab)](https://github.com/soyHenry/DS-M2/blob/main/Anderson.pdf)
+
+A continuación, te dejaremos acceso a la homework resuelta.
+
+Recuerda entrar una vez ya resuelta para hacer autocorrección o para consultar dudas. **¡La meta aquí es aprender! 🚀**
 
 ## Homework
 
